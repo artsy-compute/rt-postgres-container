@@ -1,0 +1,9 @@
+dbname: odoodb
+user: odoo
+password: odoo
+port: 7777
+network-mode: host
+network-name: rt_example_network
+container-name: rt_example_postgres
+postgres-version: 15
+volume-path: /rt/data
