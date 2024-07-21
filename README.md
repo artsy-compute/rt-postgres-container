@@ -34,13 +34,13 @@ volume-path: /rt/data
 Quick and easy to start the PostgreSQL Docker container:
 
 ```bash
-python rt-postgres-container.py config.example.yaml up
+./rt-postgres-container.py config.example.yaml up
 ```
 
 Start container along with parameter adjustment on top of configuration file:
 
 ```bash
-python rt-postgres-container.py config.example.yaml up --port 5433 --container-name my_custom_postgres
+./rt-postgres-container.py config.example.yaml up --port 5433 --container-name my_custom_postgres
 ```
 
 ### Stop and Remove the PostgreSQL Docker Container
@@ -48,7 +48,7 @@ python rt-postgres-container.py config.example.yaml up --port 5433 --container-n
 To stop and remove the PostgreSQL Docker container:
 
 ```bash
-python rt-postgres-container.py config.example.yaml
+./rt-postgres-container.py config.example.yaml
 ```
 
 ### Command Line Arguments
